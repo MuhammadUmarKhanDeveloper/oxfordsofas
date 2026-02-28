@@ -1,0 +1,163 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0;
+ }
+.container-fluid{
+background-color:rgb(146, 180, 185);
+font-size: larger;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar .nav-item .nav-link{
+    color: white;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg{
+    background-image: url(image/Bg\ 01.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-d{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.sofa-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.sofa-card {
+  width: 500px;
+    height: 100%;
+}
+
+
+.card img:hover{
+height: 350px;
+width: 545px;
+border-radius: 10px
+;
+box-shadow: 6px 6px 6px 6px;
+color: #7aa4a8;
+transition: 2s;
+
+
+}
+
+.btn-download {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.container h2{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+  background-color: #8fb3b7; /* matches your header tone */
+  color: #fff;
+  padding: 40px 0 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-box h3,
+.footer-box h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-box p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 8px;
+}
+
+.footer-box ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-box ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #7aa4a8;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+
+/* Custom Styling for Story Section */
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    transition: transform 0.3s ease;
+}
+
+.shadow-sm:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.bg-primary {
+    background-color: #d4af37 !important; /* Luxury Gold color for Perfume theme */
+}
+
+.text-primary {
+    color: #d4af37 !important;
+}
+
+.rounded-4 {
+    border-radius: 1.5rem !important;
+}
+
+
+
+.Brand img{
+height: 290px;
+width:  350px;
+border-radius: 15px;
+margin-bottom: 25px;
+}
